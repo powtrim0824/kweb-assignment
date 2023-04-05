@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link type ="text/css" rel="stylesheet" href="kweb 실습/style.css">
+        <h5>KWEB Survey Page</h5>
+        <img src ="https://i.imgur.com/hSSFVSw.png"
+            alt= "KWEB Logo"
+            width =160>
+        <h1>KWEB</h1>
+        <a href= "https://kwebofficial.com/" title = "KWEB Hompage" target="_blank">KWEB Homepage</a>
+    </head>
+    <body>
+        <ol>
+            <div>
+             <li>Write your name.</li>
+                <input type = "text" name = "username">
+            </div>
+            <div>
+             <li>Write your student number.</li>
+                <input type = "text" name = "studentnumber">
+            </div>
+            <div>
+             <li>Select your member level</li>
+                <label><input type = "radio" name = "memberlevel" value = "Admin">Admin</label>
+                <label><input type = "radio" name = "memberlevel" value = "Intern">Intern</label>
+                <label><input type = "radio" name = "memberlevel" value = "Qualified">Qualified</label>
+            </div>
+            <div>
+             <li>Select all fields you are interested in.</li>
+                <label><input type = "checkbox" name = "Front-end">Front-end</label>
+                <label><input type = "checkbox" name = "Back-end">Back-end</label>
+                <label><input type = "checkbox" name = "Web crawling">Web crawling</label>
+                <label><input type = "checkbox" name = "Web security">Web security</label>
+                <label><input type = "checkbox" name = "Etcetera">Etcetera <input type = "text" name = "Etcetera"></label>
+            </div>
+            <div>
+             <li>Give us your overall evaluation and feedback about the previous study.</li>
+                <textarea cols = "70" rows = "15"
+                placeholder = "Write evaluation here"
+                name = "evaluation">
+                </textarea>
+            </div>
+            <button type = "submit">Submit your answers</button>
+        </ol>
+    </body>
