@@ -1,0 +1,13 @@
+#scroll-button{
+    position: fixed;
+    right : 50px;
+    bottom : 100px;
+    border : 1px solid darkblue;
+    border-radius: 18px;
+    background-color: darkblue;
+    font-size = 15pt;
+}
+.arrow{
+    color: white;
+    border: 1px solid white;
+}
